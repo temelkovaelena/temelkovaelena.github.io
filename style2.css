@@ -1,0 +1,197 @@
+body{
+    font-family: 'Unbounded', cursive;
+    background-color: #0c0c0c;
+}
+#page{
+    background-color: #0c0c0c;
+    margin:-10px;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    padding:10px;
+    position: relative;
+    margin: 0;
+    margin-top:20px;
+}
+#header{
+    background: #66aec5;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width:170px;
+    box-shadow: 2px 5px 5px 2px rgba(0, 69, 80, 0.3);
+    align-items: center;
+    height:100%;
+}
+#header ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    float:left;
+    align-items: center;
+    padding:0;
+    width:160px;
+    font-weight:300;
+    padding-bottom:30px;
+
+}
+#header > ul > li .bio{
+    width:100px;
+    height:100px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(221, 231, 232, 0.2);
+    border-radius:10px;
+    margin:5px;
+    font-size:11px;
+}
+#header > ul > li> div > a{
+    color: #ffffff;
+    font-size:11px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin:11px;
+}
+.ET p{
+    font-size:15px;
+    padding:0;
+    margin:0;
+    position:relative;
+    display:block;
+    top:-20px;
+
+}
+.ET{
+    padding: 15px 5px 10px 10px;
+}
+
+#header > ul > li > div > a > img{
+    width:30px;
+    height:30px;
+    padding-top: 5px;
+}
+
+
+#header > ul > li >.bio:hover{
+    background-color: rgba(205, 136, 240, 0.3);
+    transition: 0.4s;
+    border-radius: 50px;
+    color:black;
+    font-size:13px;
+    width:110px;
+    height:110px;
+    transition-timing-function: ease-out;
+}
+#header > ul > li:nth-child(2) > div{
+    background-color: #9384ba;
+}
+
+.gore{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 20px 30px;
+    justify-content: space-between;
+    width:100%
+}
+.content{
+    display:flex;
+    flex-direction: column;
+}
+#naslov{
+    display: flex;
+    font-size:60px;
+    background-color: #f7cc51;
+    text-align: center;
+    margin-bottom:10px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    justify-content: flex-start;
+    width:950px;
+}
+#naslov p{
+    margin-left: 40px;
+}
+
+.pink{
+    background-color: #f7cc51;
+    width:350px;
+    height:350px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    float:right;
+    position: relative;
+    right:0px;
+}
+.pink img{
+    width:320px;
+    padding:15px;
+}
+#naslov div{
+    width:50px;
+    background-color: #5bb5a7;
+}
+
+.right{
+    align-items: center;
+}
+.right p{
+    background-color: #e7788b;
+    padding:28px;
+    margin-top:15px;
+    font-size: 20px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border: #66aec5 10px solid;
+    border-right: none;
+}
+.sliki img{
+    height:240px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.sliki{
+    display: flex;
+    flex-direction: row;
+    background-color: #e7788b;
+    border-radius: 10px;
+    margin-left:32px;
+    transition: transform .2s;
+}
+.sliki img:hover{
+    transform: scale(1.5) translateY(-50px);
+    transition-duration: 0.4s;
+}
+
+#text p{
+    background-color: #9384ba;
+    padding:30px;
+    width:800px;
+    border-left: 5px solid #5bb5a7;
+    border-top: 5px solid #5bb5a7;
+    border-bottom: 20px solid #5bb5a7;
+    border-right: 40px solid #5bb5a7;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin:0;
+}
+#text{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+}
+
+.levo{
+    width:800px;
+}
+.bio{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}

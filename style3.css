@@ -1,0 +1,229 @@
+body{
+    font-family: 'Unbounded', cursive;
+    background-color: #0c0c0c;
+}
+#page{
+    background-color: #0c0c0c;
+    margin:-10px;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    padding:10px;
+    position: relative;
+    margin: 0;
+    margin-top:20px;
+}
+#header{
+    background: #66aec5;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width:170px;
+    box-shadow: 2px 5px 5px 2px rgba(0, 69, 80, 0.3);
+    align-items: center;
+    height:100%;
+}
+#header ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    float:left;
+    align-items: center;
+    padding:0;
+    width:160px;
+    font-weight:300;
+    padding-bottom:30px;
+
+}
+#header > ul > li .bio{
+    width:100px;
+    height:100px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(221, 231, 232, 0.2);
+    border-radius:10px;
+    margin:5px;
+    font-size:11px;
+}
+#header > ul > li> div > a{
+    color: #ffffff;
+    font-size:11px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin:11px;
+}
+.ET p{
+    font-size:15px;
+    padding:0;
+    margin:0;
+    position:relative;
+    display:block;
+    top:-20px;
+
+}
+.ET{
+    padding: 15px 5px 10px 10px;
+}
+
+#header > ul > li > div > a > img{
+    width:30px;
+    height:30px;
+    padding-top: 5px;
+}
+
+
+
+#header > ul > li >.bio:hover{
+    background-color: rgba(205, 136, 240, 0.3);
+    transition: 0.4s;
+    border-radius: 50px;
+    color:black;
+    font-size:13px;
+    width:110px;
+    height:110px;
+    transition-timing-function: ease-out;
+}
+#header > ul > li:nth-child(3) > div{
+    background-color: #9384ba;
+}
+
+#text{
+    width:800px;
+    height:410px;
+    overflow: auto;
+    background-color: #5bb5a7;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    padding: 10px 20px 20px 20px;
+    border: #9384ba 20px solid;
+    scrollbar-width: thin;
+}
+#text p{
+    text-indent: 2em;
+    font-size:22px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 30px;
+}
+#naslov{
+    display: flex;
+    font-size:60px;
+    background-color: #f7cc51;
+    margin-bottom:10px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    justify-content: flex-start;
+}
+#naslov p{
+    margin-left: 40px;
+    width:500px;
+}
+
+.pink{
+    background-color: #f7cc51;
+    height:350px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    float:right;
+    float:right;
+    margin-top:4px;
+}
+.pink img{
+    width:320px;
+    padding:15px;
+    margin-left:10px;
+}
+#naslov div{
+    width:50px;
+    height:100%;
+    background-color: #5bb5a7;
+}
+#page > div.content > div:nth-child(2) > div:nth-child(1){
+    width:50px;
+    height:100%;
+    background-color: #5bb5a7;
+}
+.right{
+    margin-left:10px;
+    align-items: center;
+
+}
+.right p{
+    background-color: #9384ba;
+    padding:20px;
+    font-size: 17px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    border: #5bb5a7 10px solid;
+    border-right: none;
+    margin:10px 0 10px 10px;
+    font-weight:300;
+}
+.right p:nth-child(1){
+    margin-top:20px;
+}
+
+#text > ul > li > ol > li > p{
+    margin:0px;
+}
+
+#text > ul > li > p
+{
+    list-style:none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    margin:0;
+    padding: 10px 0 10px 0;
+    font-weight:500;
+
+}
+#text ul{
+    list-style:none;
+    padding:0;
+}
+#text > ul > li > ol > li > p:nth-child(1){
+    font-size: 18px;
+    /*background-color: #9384ba;*/
+    text-indent: 0.5em;
+
+}
+#text > ul > li > ol > li > p:nth-child(2){
+    /*background-color: #e7788b;*/
+    font-size: 15px;
+    text-indent: 0;
+    padding-left:10px;
+    color: rgba(12, 12, 12, 0.5);
+}
+
+
+#text::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#text::-webkit-scrollbar-thumb {
+    background-color: #f7cc51;
+    border-radius: 10px;
+}
+#text::-webkit-scrollbar-track {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#text::-webkit-scrollbar {
+    width: 0.7em;
+}
+
+.bio{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}

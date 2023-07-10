@@ -1,0 +1,227 @@
+body{
+    font-family: 'Unbounded', cursive;
+    background-color: #0c0c0c;
+}
+#page{
+    background-color: #0c0c0c;
+    margin:-10px;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+}
+
+.logo{
+    width:100px;
+    height: 100px;
+    padding:10px;
+    position: relative;
+    margin: 0;
+    margin-top:20px;
+}
+#header{
+    background: #66aec5;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    width:170px;
+    box-shadow: 2px 5px 5px 2px rgba(0, 69, 80, 0.3);
+    align-items: center;
+    height:100%;
+}
+#header ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: relative;
+    float:left;
+    align-items: center;
+    padding:0;
+    width:160px;
+    font-weight:300;
+    padding-bottom:30px;
+
+}
+#header > ul > li .bio{
+    width:100px;
+    height:100px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(221, 231, 232, 0.2);
+    border-radius:10px;
+    margin:5px;
+    font-size:11px;
+}
+#header > ul > li> div > a{
+    color: #ffffff;
+    font-size:11px;
+    text-decoration: none;
+    padding-top: 5px;
+    margin:11px;
+}
+.ET p{
+    font-size:15px;
+    padding:0;
+    margin:0;
+    position:relative;
+    display:block;
+    top:-20px;
+
+}
+.ET{
+    padding: 15px 5px 10px 10px;
+}
+
+#header > ul > li > div > a > img{
+    width:30px;
+    height:30px;
+    padding-top: 5px;
+}
+
+
+#header > ul > li >.bio:hover{
+    background-color: rgba(205, 136, 240, 0.3);
+    transition: 0.4s;
+    border-radius: 50px;
+    color:black;
+    font-size:13px;
+    width:110px;
+    height:110px;
+    transition-timing-function: ease-out;
+}
+#header > ul > li:nth-child(4) > div{
+    background-color: #9384ba;
+}
+#text{
+    width:800px;
+    height:410px;
+    background-color: #5bb5a7;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    padding: 10px 20px 20px 20px;
+    border: #9384ba 20px solid;
+    display: flex;
+    flex-direction: column;
+}
+#text p{
+    text-indent: 2em;
+    font-size:22px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 20px 30px;
+    width:100%;
+}
+#naslov{
+    display: flex;
+    font-size:60px;
+    background-color: #f7cc51;
+    margin-bottom:10px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 60px;
+    justify-content: flex-start;
+}
+#naslov p{
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.pink{
+    background-color: #f7cc51;
+    width:350px;
+    height:350px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.pink img{
+    width:320px;
+    padding:15px;
+}
+#naslov div{
+    width:50px;
+    height:100%;
+    background-color: #5bb5a7;
+}
+
+.right{
+    margin-left:20px;
+    align-items: center;
+}
+.right p{
+    background-color: #e7788b;
+    padding:28px;
+    margin-top:15px;
+    font-size: 20px;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+    border: #66aec5 10px solid;
+    border-right: none;
+}
+.contact{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:50px;
+}
+.contact div{
+    width: 400px;
+    height:400px;
+    border-radius: 100%;
+    align-content: center;
+    align-items: center;
+}
+.contact div img{
+    width:300px;
+    padding-left:50px;
+    padding-top:50px;
+}
+
+.contact > div:nth-child(1) {
+    background-color: #9384ba;
+}
+.mail{
+    opacity: 0;
+    font-size: 20px;
+    font-weight:500;
+    color: white;
+    position:relative;
+    top:-352px;
+    background-color: #66aec5;
+    width: 400px;
+    height: 400px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+.mail:hover{
+    opacity: 1;
+}
+.mail .text{
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    padding-top:180px;
+
+}
+.mail:hover .text {
+    opacity: 1;
+}
+
+.contact > div:nth-child(2){
+    background-color: #e7788b;
+}
+.contact > div:nth-child(3){
+    background-color: #5bb5a7;
+}
+
+
+.bio{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
